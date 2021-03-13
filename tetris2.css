@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: whitesmoke;
+    color:  black;
+    font-family: Trebuchet (sans-serif);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 47%;
+    top: 3%;
+}
+
+#game {
+    padding-top: 20px;
+    font-size: 40px;
+    width: 320px;
+    margin: auto;
+}
+
+#start {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 1150px;
+    top: 104px;
+    background-color: rgb(134, 218, 134);
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+#pause {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    left: 350px;
+    top: 160px;
+    background-color: silver;
+}
+
+h3 {
+    font-size: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    height: 22px;
+    bottom: 143px;
+    left: 110%;
+}
+
+.main{
+    width: 320px;
+    height: 620px;
+    margin: 20px auto 0;
+    border: 10px solid grey;
+    font-size: 0;
+}
+
+.cell{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+.movingCell{
+    background-color: crimson;
+}
+
+.fixedCell{
+    background-color: blue;
+}
